@@ -1,0 +1,178 @@
+@import url(./reset.css);
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* Para sacar subrayado */
+* {
+  outline: none;
+  text-decoration: none;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+body {
+  padding: 3% 15%;
+  height: auto;
+  background-color: rgb(36, 48, 52);
+}
+
+header {
+  height: auto;
+  padding-right: 2%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+.image-perfil {
+  height: 80%;
+  width: 40%;
+}
+
+.image-logo {
+  width: 80%;
+  min-height: auto;
+  min-width: auto;
+  padding: 2rem;
+  padding-bottom: 0rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Lora", sans-serif;
+  font-weight: 1000;
+  font-size: 1.7rem;
+  margin-top: 1rem;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 1.25rem;
+  color: black;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.name-primary {
+  width: 55%;
+}
+
+.name {
+  padding-left: 15%;
+  padding-bottom: 2%;
+  padding-top: 15%;
+  width: auto;
+  height: auto;
+}
+
+.text {
+  color: black;
+  padding-left: 7%;
+  padding-top: 1%;
+  margin-bottom: 2%;
+  height: auto;
+  text-transform: uppercase;
+}
+
+.text-mail {
+  text-transform: none;
+  color: blue;
+}
+
+.text-size {
+  font-size: 1rem;
+}
+.profession {
+  font-family: lora, serif;
+  font-size: 1.3rem;
+  color: #253439;
+  height: auto;
+  margin-bottom: 12%;
+  padding-left: 10%;
+}
+
+.margin-left-right {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  padding-bottom: 0;
+}
+
+.border-botton {
+  padding-bottom: 1rem;
+  border-bottom: 0.0625rem solid black;
+}
+
+main {
+  background-color: white;
+  border: 0.0625rem solid black;
+  height: auto;
+  padding-bottom: 2%;
+}
+
+.section-desplegable {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.section__main--informacion {
+  margin-left: 5rem;
+  margin-bottom: auto;
+}
+
+.section__main--subtitulos {
+  padding-bottom: 0.065rem;
+  padding-top: 1rem;
+}
+
+.ocultar {
+  display: none;
+}
+
+.titulo-1 {
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #253439;
+  padding-left: 1%;
+}
+
+.subtitulos {
+  text-transform: uppercase;
+  color: black;
+  font-family: "Alike";
+}
+
+.space {
+  padding-bottom: 0.6rem;
+}
+
+/*footer*/
+.logo-size {
+  padding-top: 1%;
+  font-size: 2rem;
+}
+
+.color-link {
+  color: blue;
+  font-size: 1rem;
+}

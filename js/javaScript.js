@@ -6,8 +6,6 @@ function desplegar(id, id_2, id_3, id_4) {
   });
 }
 
-// DESPLEGABLE
-
 const abrir = document.getElementById("abrir");
 const cerrar = document.getElementById("cerrar");
 const titulo = document.getElementById("titulo");
@@ -17,8 +15,6 @@ desplegar(abrir, presentacion, abrir, cerrar);
 desplegar(titulo, presentacion, abrir, cerrar);
 desplegar(cerrar, presentacion, abrir, cerrar);
 
-// DESPLEGABLE CONOCIMIENTOS
-
 const abrir2 = document.getElementById("abrir2");
 const cerrar2 = document.getElementById("cerrar2");
 const titulo2 = document.getElementById("titulo2");
@@ -27,8 +23,6 @@ const conocimientos = document.getElementById("conocimientos");
 desplegar(abrir2, conocimientos, abrir2, cerrar2);
 desplegar(titulo2, conocimientos, abrir2, cerrar2);
 desplegar(cerrar2, conocimientos, abrir2, cerrar2);
-
-// DESPLEGABLE "EXPERIENCIA LABORAL"
 
 const abrir3 = document.getElementById("abrir3");
 const cerrar3 = document.getElementById("cerrar3");

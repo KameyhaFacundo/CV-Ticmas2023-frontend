@@ -1,4 +1,6 @@
 @import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 
 .d-block {
   display: block;
@@ -53,6 +55,7 @@ h1 {
   font-family: "Lora", sans-serif;
   font-weight: 1000;
   font-size: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
@@ -69,9 +72,9 @@ h3 {
 
 .text {
   color: black;
-  padding-left: 7%;
-  padding-top: 1%;
-  margin-bottom: 2%;
+  padding-left: 1.5rem;
+  padding-top: 0.3rem;
+  margin-bottom: 0.3rem;
   text-transform: uppercase;
 }
 
@@ -83,6 +86,7 @@ h3 {
 .text-size {
   font-size: 1rem;
 }
+
 .profession {
   font-family: lora, serif;
   font-size: 1.3rem;
@@ -109,6 +113,7 @@ main {
   border: 0.0625rem solid black;
   height: auto;
   padding-bottom: 2%;
+  box-shadow: inset 0 0 16px #444444;
 }
 
 .section-desplegable {
@@ -117,9 +122,16 @@ main {
   cursor: pointer;
 }
 
+.section-desplegable:hover {
+  color: darkblue;
+}
+
+.titulo-1:hover {
+  color: darkblue;
+}
+
 .section__main--informacion {
   margin-left: 0.5rem;
-  margin-bottom: auto;
 }
 
 .section__main--subtitulos {
@@ -148,9 +160,22 @@ main {
   padding-bottom: 0.6rem;
 }
 
+.section__main--informacion ul li p {
+  color: #253439;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+.section__main--informacion div p {
+  color: #253439;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
 /*footer*/
 .logo-size {
-  padding-top: 1%;
+  padding-top: 0.3rem;
   font-size: 2rem;
 }
 
@@ -166,13 +191,95 @@ main {
     grid-template-columns: auto auto;
   }
 
+  body {
+    padding: 10% 15%;
+  }
   h1 {
-    padding-top: 3rem;
+    padding-top: 5rem;
+    font-size: 2.5rem;
   }
 
+  h2 {
+    font-size: 1rem;
+  }
   .image-perfil {
     width: 100%;
     height: 100%;
     padding: 1rem;
+  }
+
+  article div h2 {
+    font-size: 1.6rem;
+  }
+  .text h2 {
+    font-size: 1.2rem;
+  }
+
+  .titulo-1 {
+    font-size: 1.5rem;
+  }
+  .section__main--informacion ul li h2 {
+    font-size: 1.1rem;
+  }
+
+  .section__main--informacion div h2 {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .g-template-column {
+    grid-template-columns: auto auto;
+  }
+
+  body {
+    padding: 10% 18%;
+  }
+  h1 {
+    padding-top: 5rem;
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+  .image-perfil {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+  }
+
+  article div h2 {
+    font-size: 1.8rem;
+  }
+
+  .text h2 {
+    font-size: 1.8rem;
+  }
+
+  .titulo-1 {
+    font-size: 2.1rem;
+  }
+  .section__main--informacion p {
+    font-size: 1.5rem;
+  }
+
+  .section__main--informacion ul li h2 {
+    font-size: 1.5rem;
+  }
+
+  .section__main--informacion div h2 {
+    font-size: 1.5rem;
+  }
+
+  .section__main--informacion ul li p {
+    font-size: 1.4rem;
+  }
+  .section__main--informacion div p {
+    font-size: 1.4rem;
+  }
+
+  .text-mail {
+    font-size: 1.8rem;
   }
 }
